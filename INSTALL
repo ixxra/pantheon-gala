@@ -1,0 +1,18 @@
+Dependencies:
+    cmake
+    libgranite-dev
+    libmutter-dev
+    libclutter-gtk-1.0-dev
+    libgtk-3-dev
+    gsettings-desktop-schemas-dev
+    libxfixes-dev
+    libbamf3-dev
+    valac-0.16
+
+Installation:
+    bzr branch lp:gala
+    cd gala
+    mkdir build
+    cd build
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+    sudo make install
